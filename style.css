@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 385px;
+    background-color: black;
+    background-image: url(img/slider2\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25px 40px;
+}
+
+.header-nav {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+}
+
+.header-nav_h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.89px;
+}
+
+.header-nav_ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header-nav_ul li {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+}
+
+.header-nav_input {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #666666;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    padding: 14px;
+    background-image: url(img/search.png);
+    background-position: 97%;
+    background-repeat: no-repeat;
+}
+
+.header-nav_input::placeholder {
+    color: #666666;
+}
+
+.ulh3 {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.header_texts {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.header_texts_h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    width: 300px;
+    color: white;
+    margin-top: 30px;
+}
+
+.header_texts_buttons_button {
+    width: 109px;
+    height: 55px;
+    background-color: #76B900;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    transition: all 0.2s;
+}
+
+.header_texts_buttons_button:hover {
+    background-color: white;
+    color: #76B900;
+}
+
+.img-dotes {
+    position: relative;
+    top: 10px;
+    left: 605px;
+}
+
+.section {
+    height: 1600px;
+    background-color: #F5F5F5;
+    padding: 40px;
+}
+
+.section-div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section-div1_h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: center;
+}
+
+.section-div1-dives {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-div1-dives-div1 {
+    width: 290px;
+    height: 302px;
+    box-shadow: 0px 17px 27px -4px #00000040;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+.hover:hover {
+    transform: translate(0, -20px);
+    box-shadow: 5px 20px 33px 5px #00000040;
+}
+
+.section-div1-dives-div1_h3 {
+    width: 178px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    margin: 20px 56px 35px 56px;
+}
+
+.section-div1-dives-div1-shop {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-div1-dives-div1-shop_h6 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+}
+
+.div2 {
+    margin-top: 40px;
+}
+
+.section_nvidia {
+    width: 100%;
+    height: 351px;
+    background-color: #FFFCFC;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    display: flex;
+    gap: 60px;
+}
+
+.section_nvidia_textsbutton {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section_nvidia_texts {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.section_nvidia_texts_h1 {
+    width: 416px;
+    color: #67B900;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+}
+
+.section_nvidia_texts_p {
+    width: 399px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+}
+
+.section_nvidia_textsbutton_button {
+    width: 233px;
+    height: 62px;
+    background-color: #76B900;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    border: none;
+    transition: all 0.2s;
+}
+
+.section_nvidia_textsbutton_button:hover {
+    background-color: white;
+    color: #76B900;
+}
+
+.footer {
+    width: 100%;
+    height: 211px;
+    padding: 90px 25px;
+    position: relative;
+    top: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_h5 {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21.78px;
+    color: #666666;
+}
